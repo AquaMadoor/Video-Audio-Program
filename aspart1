@@ -1,0 +1,13 @@
+import java.util.*;
+import javax.sound.sampled.*;
+
+public class aspart1 {
+	public static void main(String[] args) {
+		// finish main method
+	}
+	
+	public static AudioFileFormat getAudioFile Format (File file) {
+		
+	}
+	
+}
