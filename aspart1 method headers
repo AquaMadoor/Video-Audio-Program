@@ -1,0 +1,38 @@
+import java.util.*;
+import javax.sound.sampled.*;
+
+public class aspart1 {
+	public static void main(String[] args) {
+		// finish main method
+	}
+	
+	// integer that is used for unknown numeric values that are not negative
+	public static final int NOT_SPECIFIED
+	
+	/* obtains audio input stream from provided input stream; audio file data must 
+	be valid; may require multiple parsers to determine if the 
+	stream is supported; must read stream to determine whether it is supported, and
+	if not, be able to reset the reader's position to the original starting point */
+	public static AudioFileFormat getAudioFileFormat (File file) {
+		
+	}
+	// obtains format of the audio file format
+	public static AudioFileFormat getAudioFileFormat(InputStream stream) {
+		
+	}
+	
+	/* determines whether audio input stream of a specified format can be obtained
+	from audio input stream of another file type */
+	public static boolean isConversionSupported(AudioFormat targetFormat,
+			AudioFormat sourceFormat) {
+		
+	}
+	
+	/* obtain audio input stream of specified format by converting audio input
+	stream provided */
+	public static AudioInputStream getAudioInputStream(AudioFormat targetFormat,
+			AudioInputStream sourceFormat) {
+		
+	}
+	
+} // end class aspart1
